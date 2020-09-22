@@ -129,7 +129,7 @@ static rt_size_t ft5426_readpoint(struct rt_touch_device *touch, void *data, rt_
         temp_data->event = RT_TOUCH_EVENT_MOVE;
     }
     x_save = temp_data->x_coordinate;
-    y_save = temp_data->x_coordinate;
+    y_save = temp_data->y_coordinate;
 
     return RT_EOK;
 }
